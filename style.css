@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    height: 100px;
+}
+
+header {
+    height: 76px;
+    background-color: black;
+
+}
+
+.navbar {
+    border: 2px solid rgb(44, 44, 44);
+    height: 60px;
+    background-color: rgba(0, 0, 0, .85);
+    position: sticky;
+    top: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    position: relative;
+    left: 90px;
+    background-image: url('menu.jpg');
+    background-size: cover;
+}
+
+.left:hover {
+    cursor: pointer;
+}
+
+.center {
+    height: 30px;
+    width: 34px;
+    align-self: center;
+    background-image: url('GTA-LOGO.jpg');
+    background-size: cover;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.center:hover {
+    cursor: pointer;
+
+}
+
+.right {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    position: relative;
+    right: 65px;
+    background-image: url('contact.svg');
+    background-size: cover;
+    padding: 4px;
+}
+
+.right:hover {
+    cursor: pointer;
+}
+
+.container {
+    border: none;
+    height: 81vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.img {
+    border: none;
+    height: 80vh;
+    width: 68vw;
+    background-image: url('https://videos-rockstargames-com.akamaized.net/screencaps/12290/_global/1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.side {
+    border: none;
+    height: 80vh;
+    width: 32vw;
+    color: white;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.g-t-a-o {
+    border: none;
+    width: 400px;
+    font-size: 16px;
+    height: 30px;
+    position: relative;
+    top: 58px;
+    padding: 34px;
+    font-weight: bold;
+    -ms-text-kashida-space: 0.3px;
+}
+
+.s-a-m-o {
+    border: none;
+    font-size: 38px;
+    padding: 34px;
+    position: relative;
+    font-weight: bold;
+}
+
+.buy {
+    border: 1px solid white;
+    display: block;
+    width: 250px;
+    position: relative;
+    left: 35px;
+    bottom: 20px;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+
+.buy:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    border-color: black;
+}
+
+.white-slider {
+    border: none;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#div-box {
+    /* border: 3px solid white; */
+    width: 90px;
+    height: 2px;
+    align-self: center;
+    border-radius: 7px;
+    /* background-color: white; */
+    padding: -10px;
+}
+
+.d1 {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.d2 {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.d3 {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.d4 {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.container2 {
+    background-color: rgb(9, 9, 9);
+    height: 100px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.text {
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 400px;
+}
+
+#box {
+    outline: 1px solid rgb(50, 50, 50);
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+#box:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 3px gray;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.container2-box {
+    background-color: rgb(9, 9, 9);
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.b1 {
+    background-image: url('https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak572k522a1k35/9fde77374cb2eee5e931d0d9677b74c83ba9cd98.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.box-p1 {
+    color: white;
+    border: none;
+    width: 100%;
+    background-color: black;
+
+    font-size:23px;
+    text-align:center;
+    font-weight:bold;
+    height:169px;
+}
+
+
+.b2 {
+    background-image: url('https://media-rockstargames-com.akamaized.net/tina-uploads/posts/39o34283o5k1k9/a996cf13622a6d1a64092bc5c022c55928e59865.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: end;
+    font-size:23px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.box-p2 {
+   color: white;
+    border:none;
+    width: 100%;
+    background-color: black;
+    
+    height:169px;
+}
+
+.b3 {
+    background-image: url('https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k51o42283127o/e260531542ea0c11cc2f358282e3cf35776c1115.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    font-size:23px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.box-p3 {
+    color: white;
+    border: none;
+    width: 100%;
+    background-color: black;
+    height:169px;
+}
+
+.b4 {
+    background-image: url('https://media-rockstargames-com.akamaized.net/tina-uploads/posts/1754534a915198/571926b0bc766e689926476513f195209e510e95.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    font-size:23px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.box-p4 {
+    color: white;
+    border: none;
+    width: 100%;
+    background-color: black;
+    height:169px;
+}
+
+.b5 {
+    background-image: url('https://media-rockstargames-com.akamaized.net/tina-uploads/posts/o31438a7k4o938/1c7a5e054682d2a1a28d2d451f3495759b089430.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    font-size:23px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.box-p5 {
+    color: white;
+    border:none;
+    width: 100%;
+    background-color: black;
+    height:169px;
+}
+
+.b6 {
+    background-image: url('https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak512kkk237827/cb8e19954c53d00875ea9bbc4955fc23bc5fa2d7.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.box-p6 {
+    color: white;
+    border: none;
+    width: 100%;
+    background-color: black;
+    height:169px;
+    font-size:23px;
+    text-align:center;
+    font-weight:bold;
+}
+#box-p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container3-box{
+    background-color: rgb(9, 9, 9);
+    color: white;
+}
+
+.btn-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-m{
+    height: 50px;
+    width: 130px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    /* box-shadow: 0px 0px 10px yellow; */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.v-m::after{
+    background-color: orange;
+    color: black;
+    cursor: not-allowed;
+    content: "";
+    display: block;
+    height: 2px;
+    border-radius: 4px;
+    width: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.v-m:hover::after{
+    transform: scaleY(1);
+    box-shadow: 0px 0px 7px orange;
+    cursor: pointer;
+}
+.container4-box{
+    background-color: rgb(9, 9, 9);
+}
+.F-G{
+    display: inline;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 70px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(9, 9, 9);
+}
+
+.box-4{
+    display: flex;
+    position: relative;
+        top: 50px;
+    justify-content: space-around;
+    height: 60vh;
+    background-color: rgb(9, 9, 9);
+}
+
+#b-4{
+    border: none;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+}
+
+.b4-1{
+    background-image: url("https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/global/games/fob/640/V.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b4-2{
+    background-image: url("https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/global/games/fob/640/GTAOnline.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+
+}
+.b4-3{
+    background-image: url("https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/global/games/fob/640/reddeadredemption2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+.b4-4{
+    background-image: url("https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/global/games/fob/640/reddeadonline.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
